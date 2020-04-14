@@ -1,0 +1,302 @@
+/*--默认风格--*/
+/*--登陆页..................................................*/
+/*--登陆页--顶部区域--背景色--*/
+.login-header{
+	background: rgba(0, 0, 0, 0.6);
+}
+/*--登陆页弹出框标题颜色--*/
+/*.zpopup .pop-inn .stable .stitle{
+	color: #c23232;
+}*/
+.zpopup .pop-inn .stable tr .btn{
+	background-color: #C23232;
+	transition: all 0.5s ease 0s !important;
+}
+.zpopup .pop-inn .stable tr .btn:hover{
+	background: #d22b32;
+}
+
+/*--选址雷达..................................................*/
+
+/*--顶部Header区域背景色和字体颜色--*/
+.iheader {
+    background: #333;
+    color: #fff;
+}
+/*--顶部Header--左侧按钮--*/
+.iheader i.fa-bars {
+    background: #c23232;
+    color: rgba(255, 255, 255, 1);
+}
+.iheader i.fa-bars:hover{
+	/*background：具体属性见换肤的对应css*/
+	color: #fff;
+}
+/*--顶部Header--菜单--*/
+.iheader ul.imenu li em{
+	border-right: solid 1px rgba(255, 255, 255, 0.5);
+}
+.iheader ul.imenu li em.em-noborder{
+	border-right: solid 1px #333;
+}
+.iheader ul.imenu li{
+	transition: all 0.5s ease 0s !important;
+}
+.iheader ul.imenu li:hover{
+	background: #535353;
+}
+.iheader ul.imenu li.active{
+	background: rgba(255, 255, 255, 0.25);
+}
+.iheader ul.imenu li:hover em, .iheader ul.imenu li.active em{
+	border-right: solid 1px rgba(255, 255, 255, 0);
+	/* color: #fff; */
+}
+.iheader ul.imenu li:hover i, .iheader ul.imenu li.active i{
+	/* color: #fff; */
+}
+
+/*--顶部Header--右侧--*/
+
+.iheader .icity em {
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.85);
+}
+.iheader .icity span {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.iheader .itools a{
+	color: rgba(255, 255, 255, 0.85);
+	transition: all 0.5s ease 0s !important;
+}
+
+.iheader .itools a:hover{
+	color: #fff;
+}
+
+.popover.bottom > .arrow {
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+.popover{
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+
+.popover .popover-content h6{
+	color: rgba(0, 0, 0, 0.6);
+}
+.popover .popover-content .inb{
+	background: rgba(0, 0, 0, 0.04);
+	border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.iright  .ipopup{
+	width: 750px;
+	position: absolute;
+	z-index: 10000;
+	/*background: rgba(0, 0, 0, 0.6);*/
+	background: rgba(242, 242, 242, 1);
+	/*color: #fff;*/
+	color: #666;
+	padding: 17px 7px 53px 7px;
+	border-radius: 6px;
+	
+}
+
+.title_tag{
+	border:1px solid #666;
+	border-bottom:0px;
+	background: rgba(242, 242, 242, 1);
+}
+.title_tag:hover{
+	background:#000;
+	color:#fff;
+	opacity:0.4;
+}
+.title_tag.active{
+	background:#000;
+	color:#fff;
+	opacity:0.6;
+}
+/**--地图左侧小工具--**/
+.iright  .itools div{
+	border: 0px solid rgba(0, 0, 0, 0.5);
+	background: #fff;
+}
+
+.iright  .itools div.active input{
+	background: #fff;
+}
+.iright .itools i{
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.6);
+}
+/**--弹窗--**/
+.iright  .ipopup{
+	background: rgba(242, 242, 242, 1);
+	color: #666;	
+}
+/**--左右按钮--**/
+.hideAndShow{
+	color:rgba(0,0,0,0.6);
+	/* transition: all 0.5s ease 0s !important; */
+}
+
+.hideAndShow:hover{
+	color:#c23232;
+}
+
+/*--右侧分析区--半透明浮动框--背景色和边框--*/
+.iright .icontent .TopTen {
+    background: rgba(242, 242, 242, 1);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.iright .icontent .TopTen .topTenList{
+
+}
+.iright .icontent .TopTen .topTenList:hover{
+	transition: all 0.5s ease 0s !important;
+	font-size:1.4em;
+/* 	text-shadow:5px 2px 6px rgba(0,0,0,0.2); */
+}
+ .hideAndShow {
+    background: rgba(242, 242, 242, 1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 0;
+}
+.iright .icontent .icover {
+    background: rgba(242, 242, 242, 1);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+/*--右侧分析区--半透明浮动框--居民数量左侧--高亮图标背景色--*/
+.iright .icontent .icover .itotal i {
+    background: #c23232;
+}
+
+.iright .icontent .icover .itotal h5,.iright .icontent .icover .itotal h4{
+	color: rgba(0, 0, 0, 1);
+}
+
+/* --右侧分析区--按钮图标颜色-- */
+.red{
+	color:#c23232;
+}
+.canhide{background:#C7C7C7;}
+.canshow{background:#FFF;}
+.bgBlack{background: rgba(0, 0, 0, 0.8);}
+.blue{
+	color:#C7C7C7;
+}
+.pingS{
+	color:#e6cd00;;
+}
+.green{
+	color:#6B8E23;
+}
+.black{
+	color:#000000;
+}
+/*--右侧分析区--半透明浮动框--选取商圈半径--当前选中高亮色--*/
+.iright .icontent .icover .radius .mini div.active i {
+    color: #c23232;
+}
+/*--右侧分析区--半透明浮动框--选取商圈半径--鼠标移过hover色--*/
+.iright .icontent .icover .radius .mini div:hover i{
+	color: #c23232;
+}
+/*--右侧分析区--半透明浮动框--右上角关闭按钮--鼠标移过hover色--*/
+.iright .icontent .icover i.ihide:hover{
+	color: #c23232;
+}
+/*--右侧分析区--顶部按钮--*/
+.iright .icontent .icover .itotal .iadd{
+	background: #d43f3a none repeat scroll 0 0;
+	transition: all 0.5s ease 0s !important;
+	border-color:#d43f3a;
+    color: #fff;
+}
+
+.iright .icontent .icover .itotal .iadd:hover{
+	background: #dd6864 !important;
+}
+.iright .icontent .icover .itotal .iadd:hover em{
+	color: #fff;
+}
+/*--右侧分析区--地图左侧悬浮小图标列--鼠标移过hover色--*/
+.iright .icontent .icover .isort i{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease 0s !important;
+}
+.iright .icontent .itools i:hover, .iright .icontent .itools i.active{
+	color: #c23232;
+}
+
+/*--右侧分析区--底部菜单*/
+.iright .icontent .icover .isort{
+	border-top: solid 1px rgba(0, 0, 0, 0.2);
+	transition: all 0.5s ease 0s !important;
+}
+.iright .icontent .icover .isort i{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.5);
+}
+.iright .icontent .icover .isort em{	
+	color: rgba(0, 0, 0, 0.5);
+}
+.iright .icontent .icover .isort div.active i{
+	background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.iright .icontent .icover .isort div:hover i{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/*--右侧分析区--周边*/
+ul.poi li a span{
+	color: rgba(0, 0, 0, 0.8);
+}
+ul.poi li a em{
+	color: rgba(0, 0, 0, 0.8);
+}
+ul.poi li a i{
+	color: #105191;
+}
+.iright  .ipopup .intab .isearch,
+#setPwd .isearch{
+	background: #c23232;
+}
+.iright  .ipopup .intab .isearch:hover,
+#setPwd .isearch:hover{
+	background: #d22b32;
+}
+
+/*--左侧浮框--*/
+.bubbleHeader{
+	background-color: #666;
+}
+.bubbleCalendar{
+	border-bottom: 1px solid #666;
+}
+.bubbleCalendar i{
+	color: #c23232;
+}
+.bubbleCalendar select{
+	border: 1px solid #666;
+}
+.bubbleCalendar button{
+	background: #c23232 none repeat scroll 0 0;
+	color: #fff;
+}
+
+#cust_list tr:hover{
+	background:rgba(0,0,0,0.2);
+}
+
+.fff{
+	background:#fff;
+}
