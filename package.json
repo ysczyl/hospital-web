@@ -25,7 +25,7 @@
     "qs": "^6.7.0",
     "sass": "^1.17.4",
     "screenfull": "^5.0.0",
-    "vue": "2.5.17",
+    "vue": "3.0.0",
     "vue-fullscreen": "^2.1.5",
     "vue-pdf": "^4.0.7",
     "vue-resource": "^1.5.1",
